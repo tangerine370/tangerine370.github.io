@@ -5,7 +5,23 @@
     text-align: right; /* 右对齐 */
     margin-bottom: -10px;
  }</style><div class="article"><div class="content"><p>这里还没有建设完成呢！</p>
-</div><div class="date">2024年07月31日</div></div></div><div id="backToTop"><div class="back-arrow back-arrow-left"></div><div class="back-arrow back-arrow-right"></div></div><footer class="container"><div class="rights"><span>你可以充满信心地用雪来款待我.</span></div></footer>
+</div><div class="date">2024年07月31日</div></div></div><div class="comments"><a class="disqus-comment-count" href="/about/index.html#waline"><span class="waline-comment-count" id="/about/index.html"></span><span> Comment</span></a></div><div class="nofancybox" id="waline"></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/@waline/client@v3/dist/waline.css"><script type="module">import {init} from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+init({
+  el: '#waline',
+  comment: true,
+  serverURL: 'https://tangerine370-github-io.vercel.app',
+  pageSize: '10',
+  wordLimit: '',
+  requiredMeta,
+  emoji: [
+    '//unpkg.com/@waline/emojis@1.2.0/weibo',
+    '//unpkg.com/@waline/emojis@1.2.0/qq',
+    '//unpkg.com/@waline/emojis@1.2.0/tw-emoji',
+  ],
+});</script><script>let metaInfo = ['nick', 'mail', 'link']
+let requiredMeta = ''.split(',').filter(item => {
+  return metaInfo.indexOf(item) > -1
+})</script><div id="backToTop"><div class="back-arrow back-arrow-left"></div><div class="back-arrow back-arrow-right"></div></div><footer class="container"><div class="rights"><span>你可以充满信心地用雪来款待我.</span></div></footer>
 <script src="/script/jquery.min.js"></script>
 
 <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
